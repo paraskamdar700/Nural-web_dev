@@ -1,0 +1,70 @@
+/*--------------------- contact us ---------------------------- */
+
+  .home_005_res {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    /* flex-wrap: wrap; */
+    gap: 3rem;
+  }
+
+  .contentlorem3 {
+    color: aliceblue;
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+  
+  } 
+  
+  
+  /* email or submit button css  */
+  .input {
+    border-style: none;
+    color: #ff0000;
+    width: 100%;
+    height: 2.0rem;
+    background-color: #ffffff;
+    font-weight: bold;
+    margin-bottom: .3rem;
+    border-radius: 1.25rem;
+    transition: transform 0.4s;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* font-size:30px; */
+    /* width: 550px; */
+    /* height: 30px; */
+    /* border-color: rgb(0, 0, 0); */
+   }
+  
+   .buttoncard1 {
+    /* margin-left: 0.5rem; */
+    text-transform: uppercase;
+    margin-right: auto;
+    width: 100%;
+    height: 2.0rem;
+    font-weight: bold;
+    /* padding-right: 5%; */
+    background-color: rgb(243, 1, 1);
+    border-radius: 1.25rem;
+    border: none;
+    transition: transform 0.4s;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    font-size: 1.0rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+  }
+  .input::placeholder{
+    padding: 0.2rem;
+  }
+  .buttoncard1:hover {
+    transform: scale(1.1);
+  } 
+  .input:hover {
+    transform: scale(1.1);
+
+  }

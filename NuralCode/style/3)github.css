@@ -1,0 +1,34 @@
+/*--------------------- Github ---------------------------- */
+
+  .home_003_res{
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    word-wrap: initial;
+    flex-wrap: wrap;
+    background-color: #000000;
+  }
+
+  .contentlorem1 {
+    /* position: absolute;
+    top: 275%;
+    left: 6%; */
+    color: aliceblue;
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  span a{
+    color: #ff0000;
+    /* border: 0px; */
+
+  }
+
+  .git_logo_01{
+    height: 5.4%;
+    width: 5.4%;
+  }
